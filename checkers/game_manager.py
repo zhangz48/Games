@@ -15,7 +15,7 @@ class GameManager:
         self.draw_counter = 0
         self.winner = None
         self.game_over = False
-        self.ai = MinimaxAI(self, 1)
+        self.ai = MinimaxAI(self, 3)
         self.ai_move_countdown = 0
         self.prompt_countdown = 30
         self.copy = False

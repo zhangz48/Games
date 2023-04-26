@@ -1,0 +1,9 @@
+[
+  "asteroid_test.py::test_constructor",
+  "debris_test.py::test_constructor",
+  "debris_test.py::test_random_rot_vel",
+  "game_controller_test.py::test_constructor",
+  "laserbeam_test.py::test_constructor",
+  "spaceship_test.py::test_blow_up",
+  "spaceship_test.py::test_constructor"
+]
