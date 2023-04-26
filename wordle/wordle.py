@@ -1,5 +1,4 @@
 import sys
-# Import whatever other libraries you need
 import random
 
 # G and Y represent text formatting codes for green and
