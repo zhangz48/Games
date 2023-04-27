@@ -12,11 +12,3 @@ Wordle is a classic word guessing game where the player has to guess a 5-letter 
 6. After each guess, the program will provide feedback on the correctness of the guess by highlighting the letters in green or yellow depending on their position in the word. If a letter is not in the word at all, it will be displayed in normal text.
 7. The game ends when the player correctly guesses the word or reaches the maximum number of attempts.
 8. If the player guesses the word correctly within the allotted attempts, they win the game. If not, they lose and the correct word is revealed.
-
-## Requirements
-
-This implementation of Wordle requires Python 3 to be installed on your machine. It also uses the `random` and `sys` modules, which are included in Python by default.
-
-## Acknowledgements
-
-This implementation of Wordle is based on the project description for the "Wordle" assignment from the course "Python Programming Essentials" on Coursera.
