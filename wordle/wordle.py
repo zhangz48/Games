@@ -18,10 +18,11 @@ def main(args):
     # letters of WORD_LENGTH in the Scrabble words file. (Use a
     # separate function to get the valid words from the
     # Scrabble words files)
+    valid_words = get_valid_words(WORD_LENGTH)
+
     if args:
         wordle = str(args).upper()
     else:
-        valid_words = get_valid_words(WORD_LENGTH)
         wordle = str(random.choice(valid_words)).upper()
 
     # Study the following string to underestand how G, Y and N
